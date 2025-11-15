@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SOHO Sports & Brands - Media Menu</title>
-    <meta name="description" content="Strategic media opportunities portfolio - Brand awareness campaign in Brazil">
+    <title>SOHO Sports & Brands - Premium Media Menu</title>
     <style>
         * {
             margin: 0;
@@ -197,129 +196,84 @@
         .list-item {
             padding: 12px 0;
             border-bottom: 1px solid #e9ecef;
-            color: #555;
         }
 
         .list-item:last-child {
             border-bottom: none;
         }
 
-        .list-item strong {
-            color: #1e3c72;
-            font-weight: 600;
-        }
-
-        .table-container {
-            overflow-x: auto;
-            margin: 20px 0;
-            border-radius: 12px;
-            border: 1px solid #e9ecef;
+        .price {
+            color: #667eea;
+            font-weight: 700;
         }
 
         table {
             width: 100%;
             border-collapse: collapse;
+            margin: 20px 0;
             background: white;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .table-container {
+            overflow-x: auto;
+            border-radius: 12px;
+            border: 1px solid #e9ecef;
+        }
+
+        thead {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+        }
+
+        th, td {
+            padding: 16px;
+            text-align: left;
         }
 
         th {
-            background: #f8f9fa;
-            padding: 16px;
-            text-align: left;
             font-weight: 600;
-            color: #1e3c72;
-            border-bottom: 2px solid #e9ecef;
+            font-size: 0.95rem;
         }
 
-        td {
-            padding: 16px;
-            border-bottom: 1px solid #f0f0f0;
-            color: #555;
+        tbody tr {
+            border-bottom: 1px solid #e9ecef;
         }
 
-        tr:last-child td {
+        tbody tr:hover {
+            background: #f8f9fa;
+        }
+
+        tbody tr:last-child {
             border-bottom: none;
-        }
-
-        tr:hover {
-            background: #fafbfc;
-        }
-
-        .price {
-            font-size: 1.1rem;
-            font-weight: 700;
-            color: #28a745;
         }
 
         .footer {
             background: #f8f9fa;
-            padding: 30px 40px;
-            color: #6c757d;
-            font-size: 0.95rem;
-            border-top: 1px solid #e9ecef;
+            padding: 40px;
+            border-top: 3px solid #667eea;
         }
 
         .footer-content {
-            max-width: 1200px;
+            max-width: 1000px;
             margin: 0 auto;
         }
 
         .footer-note {
-            text-align: center;
-            margin-bottom: 30px;
-            padding-bottom: 30px;
-            border-bottom: 1px solid #e9ecef;
-        }
-
-        .footer-note strong {
-            color: #1e3c72;
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            border-left: 4px solid #667eea;
+            font-size: 1.05rem;
+            line-height: 1.7;
         }
 
         .signature {
-            background: white;
-            padding: 30px;
-            border-radius: 16px;
-            border: 2px solid #e9ecef;
             text-align: center;
-        }
-
-        .signature-name {
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: #1e3c72;
-            margin-bottom: 10px;
-        }
-
-        .signature-title {
-            font-size: 1rem;
             color: #6c757d;
-            margin-bottom: 20px;
-        }
-
-        .signature-contacts {
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            flex-wrap: wrap;
-            margin-bottom: 20px;
-        }
-
-        .signature-contact {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            color: #555;
-            font-size: 0.95rem;
-        }
-
-        .signature-contact strong {
-            color: #1e3c72;
-        }
-
-        .signature-website {
-            font-size: 1.1rem;
-            font-weight: 600;
-            color: #667eea;
+            font-size: 0.9rem;
         }
 
         @media (max-width: 768px) {
@@ -331,10 +285,6 @@
                 padding: 20px;
             }
 
-            .accordion-header {
-                padding: 18px 20px;
-            }
-
             .accordion-title {
                 font-size: 1.1rem;
             }
@@ -343,9 +293,12 @@
                 grid-template-columns: 1fr;
             }
 
-            .signature-contacts {
-                flex-direction: column;
-                gap: 15px;
+            table {
+                font-size: 0.9rem;
+            }
+
+            th, td {
+                padding: 12px 8px;
             }
         }
     </style>
@@ -354,366 +307,543 @@
     <div class="container">
         <div class="header">
             <h1>SOHO Sports & Brands</h1>
-            <p>Media Menu - Strategic Brand Awareness Opportunities</p>
+            <p>Premium Media Opportunities Portfolio</p>
         </div>
 
         <div class="content">
             <div class="intro">
-                <h2>About this menu</h2>
-                <p>This comprehensive media menu presents premium opportunities across multiple sports and entertainment properties in Brazil. Each offering is designed to maximize brand exposure and build strong awareness in the Brazilian market.</p>
-                <p><strong>Selection format:</strong> Choose the properties that best align with your brand awareness objectives and budget. Each opportunity can be purchased individually or combined for greater impact.</p>
+                <h2>Welcome to your customized media menu</h2>
+                <p>This portfolio showcases premium sponsorship and media opportunities across Brazilian sports and entertainment properties, carefully curated for maximum brand impact.</p>
+                <p><strong>Select individual properties or combine multiple opportunities to create a comprehensive brand presence strategy.</strong></p>
             </div>
 
-            <!-- FIFA World Cup 2026 -->
+            <!-- Brasileirão -->
             <div class="accordion-item">
                 <div class="accordion-header" onclick="toggleAccordion(this)">
-                    <div class="accordion-title">FIFA World Cup 2026 | TV & Digital Media</div>
+                    <div class="accordion-title">Brasileirão Série A 2025 - Complete Season Package</div>
                     <div class="accordion-icon">▼</div>
                 </div>
                 <div class="accordion-content">
                     <div class="accordion-body">
-                        <div class="highlight-box">
-                            <strong>Event dates:</strong> June 11 to July 19, 2026<br>
-                            <strong>Coverage:</strong> 32 matches across SBT network and NSports digital platform
-                        </div>
+                        <div class="section-title">Overview</div>
+                        <p>Brazil's premier football championship featuring 20 elite clubs competing over 9 months (April to December). The most-watched sports property in Brazil with consistent weekly engagement.</p>
 
-                        <div class="section-title">Full sponsorship package (SBT + NSports)</div>
+                        <div class="section-title">Total investment breakdown</div>
                         <div class="info-grid">
                             <div class="info-card">
-                                <div class="info-card-title">Total investment per quota</div>
-                                <div class="info-card-value">BRL 75,403,147</div>
-                            </div>
-                            <div class="info-card">
-                                <div class="info-card-title">Potential reach</div>
-                                <div class="info-card-value">6.76 billion</div>
-                            </div>
-                            <div class="info-card">
-                                <div class="info-card-title">Cost per thousand (CPM)</div>
-                                <div class="info-card-value">BRL 13.94</div>
-                            </div>
-                        </div>
-
-                        <div class="list-item"><strong>What's included:</strong></div>
-                        <div class="list-item">Complete sponsorship across SBT network and NSports digital platform</div>
-                        <div class="list-item">32 matches broadcast coverage</div>
-                        <div class="list-item">Full merchandising and brand integration</div>
-                        <div class="list-item">Total potential reach: 6.76 billion TV & digital impacts</div>
-
-                        <div class="section-title">Network breakdown</div>
-                        <div class="info-grid">
-                            <div class="info-card">
-                                <div class="info-card-title">SBT Network</div>
-                                <div class="info-card-value">BRL 55,467,035</div>
-                                <div style="margin-top: 10px; color: #6c757d;">4.5 billion impacts | CPM: BRL 15.35</div>
-                            </div>
-                            <div class="info-card">
-                                <div class="info-card-title">NSports Digital</div>
-                                <div class="info-card-value">BRL 19,936,112</div>
-                                <div style="margin-top: 10px; color: #6c757d;">2.2 billion impacts | CPM: BRL 11.10</div>
-                            </div>
-                        </div>
-
-                        <div class="highlight-box">
-                            <strong>Important:</strong> Only 3 sponsorship quotas available
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Brasileirão (AGORA EM SEGUNDO) -->
-            <div class="accordion-item">
-                <div class="accordion-header" onclick="toggleAccordion(this)">
-                    <div class="accordion-title">Campeonato Brasileiro Série A | R7 + RECORD</div>
-                    <div class="accordion-icon">▼</div>
-                </div>
-                <div class="accordion-content">
-                    <div class="accordion-body">
-                        <div class="highlight-box">
-                            <strong>Duration:</strong> 9 months (full season)<br>
-                            <strong>Coverage:</strong> National market<br>
-                            <strong>Total potential impact:</strong> 253.75 million impressions
-                        </div>
-
-                        <div class="section-title">Investment summary</div>
-                        <div class="info-grid">
-                            <div class="info-card">
-                                <div class="info-card-title">Monthly investment</div>
-                                <div class="info-card-value">BRL 648,092.60</div>
-                            </div>
-                            <div class="info-card">
-                                <div class="info-card-title">Total campaign (9 months)</div>
-                                <div class="info-card-value">BRL 5,832,833.40</div>
+                                <div class="info-card-title">Media investment</div>
+                                <div class="info-card-value price">R$ 67.787.301</div>
                             </div>
                             <div class="info-card">
                                 <div class="info-card-title">Production & talent</div>
-                                <div class="info-card-value">BRL 500,000</div>
+                                <div class="info-card-value price">R$ 500.000</div>
                             </div>
                             <div class="info-card">
-                                <div class="info-card-title">Grand total</div>
-                                <div class="info-card-value price">BRL 6,332,833.40</div>
+                                <div class="info-card-title">Total investment</div>
+                                <div class="info-card-value price">R$ 68.287.301</div>
                             </div>
                         </div>
 
-                        <div class="section-title">Package components</div>
-
-                        <div class="list-item">
-                            <strong>1. Channel sponsorship (co-branded)</strong><br>
-                            <span style="color: #6c757d;">R7 + Social media | 13.5M monthly impressions</span><br>
-                            Fixed logo at channel top, display media with segment exclusivity, social media content package
+                        <div class="section-title">TV Globo - National broadcast</div>
+                        <div class="info-grid">
+                            <div class="info-card">
+                                <div class="info-card-title">38 national broadcasts</div>
+                                <div class="info-card-value price">R$ 57.595.000</div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-card-title">Per game cost</div>
+                                <div class="info-card-value price">R$ 1.515.658</div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-card-title">Total TV reach</div>
+                                <div class="info-card-value">195.6M impacts</div>
+                            </div>
+                        </div>
+                        <div class="highlight-box">
+                            <strong>TV package includes:</strong> 30" spots during pre-game, halftime, and post-game | Brand visibility in studio coverage | Digital extensions on Globoplay
                         </div>
 
-                        <div class="list-item">
-                            <strong>2. Premium football package</strong><br>
-                            <span style="color: #6c757d;">RecordPlus + YouTube + R7 DAI | 4.05M monthly impressions</span><br>
-                            Premium digital football content distribution
+                        <div class="section-title">Premiere FC (Pay TV)</div>
+                        <div class="info-grid">
+                            <div class="info-card">
+                                <div class="info-card-title">Full season coverage</div>
+                                <div class="info-card-value price">R$ 6.360.000</div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-card-title">Total games</div>
+                                <div class="info-card-value">380 matches</div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-card-title">Estimated reach</div>
+                                <div class="info-card-value">42.8M impacts</div>
+                            </div>
+                        </div>
+                        <div class="highlight-box">
+                            <strong>Premiere package includes:</strong> Brand presence across all 380 matches | Dedicated football audience | Multi-platform distribution
                         </div>
 
-                        <div class="list-item">
-                            <strong>3. Free display media</strong><br>
-                            <span style="color: #6c757d;">R7 + Partner sites | 9M monthly impressions</span><br>
-                            Ad formats: 728x90, 970x250, 300x250, 300x600, 320x50
+                        <div class="section-title">SporTV digital & social</div>
+                        <div class="info-grid">
+                            <div class="info-card">
+                                <div class="info-card-title">Digital investment</div>
+                                <div class="info-card-value price">R$ 3.832.301</div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-card-title">Social reach</div>
+                                <div class="info-card-value">15.35M impacts</div>
+                            </div>
                         </div>
+                        <div class="list-item"><strong>YouTube pre-roll:</strong> R$ 2.090.301 | 11.45M impressions</div>
+                        <div class="list-item"><strong>Instagram stories:</strong> R$ 872.000 | 2.18M impressions</div>
+                        <div class="list-item"><strong>Twitter/X promoted posts:</strong> R$ 870.000 | 1.72M impressions</div>
 
-                        <div class="list-item">
-                            <strong>4. Live match coverage (non-RECORD games)</strong><br>
-                            <span style="color: #6c757d;">YouTube Voz do Esporte + Social | 91.2M total impressions | 76 actions</span><br>
-                            Pre-match, live, post-match coverage with logo insertion, vignettes, brand delivery by narrator and presenter
-                        </div>
-
-                        <div class="list-item">
-                            <strong>5. Live match coverage (RECORD games)</strong><br>
-                            <span style="color: #6c757d;">R7 + Social networks | 45.6M total impressions | 38 actions</span><br>
-                            Games broadcast by RECORD with full brand integration and Desimpedidos delivery
-                        </div>
-
-                        <div class="list-item">
-                            <strong>6. "Joga Nas 11" program</strong><br>
-                            <span style="color: #6c757d;">Record News + YouTube | 60.8M monthly impressions</span><br>
-                            Distributed across championship coverage days with complete brand integration
-                        </div>
-
-                        <div class="list-item">
-                            <strong>7. Highlights package</strong><br>
-                            <span style="color: #6c757d;">R7 + Social media | 15.2M monthly impressions</span><br>
-                            Best moments from live matches (VOD) with logo insertion and vignettes
-                        </div>
-
-                        <div class="list-item">
-                            <strong>8. Cosme Rímoli channel</strong><br>
-                            <span style="color: #6c757d;">R7 + Social media | 7.2M monthly impressions</span><br>
-                            Sports journalist channel with logo insertion, vignettes, and product placement options
-                        </div>
-
-                        <div class="list-item">
-                            <strong>9. Michel Bastos channel "SOS"</strong><br>
-                            <span style="color: #6c757d;">R7 + Social media | 7.2M monthly impressions</span><br>
-                            Ex-football player channel with complete brand integration and presenter delivery
+                        <div class="section-title">Combined campaign metrics</div>
+                        <div class="info-grid">
+                            <div class="info-card">
+                                <div class="info-card-title">Total impressions</div>
+                                <div class="info-card-value">253.75M</div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-card-title">Campaign duration</div>
+                                <div class="info-card-value">9 months</div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-card-title">Weekly touchpoints</div>
+                                <div class="info-card-value">Multiple</div>
+                            </div>
                         </div>
 
                         <div class="section-title">Key advantages</div>
-                        <div class="list-item">Full season coverage (9 months)</div>
-                        <div class="list-item">Multiple touchpoints: TV, digital, social media</div>
-                        <div class="list-item">Co-branded presence across all content</div>
-                        <div class="list-item">Integration with popular sports personalities</div>
-                        <div class="list-item">Mix of live coverage and produced content</div>
-                        <div class="list-item">National market reach</div>
-                        <div class="list-item">Average CPM: BRL 0.02 (impacts) / BRL 6.90 (impressions)</div>
+                        <div class="list-item">Most-watched sports property in Brazil</div>
+                        <div class="list-item">Consistent weekly engagement over 9 months</div>
+                        <div class="list-item">Multi-platform presence (TV + Digital + Social)</div>
+                        <div class="list-item">Prime-time exposure on Brazil's leading network</div>
+                        <div class="list-item">Association with Brazil's most passionate sport</div>
                     </div>
                 </div>
             </div>
 
-            <!-- Kings League Brazil -->
+            <!-- FIFA World Cup -->
             <div class="accordion-item">
                 <div class="accordion-header" onclick="toggleAccordion(this)">
-                    <div class="accordion-title">Kings League Brazil | Entertainment Sports</div>
+                    <div class="accordion-title">FIFA World Cup 2026 - TV Globo Broadcast</div>
                     <div class="accordion-icon">▼</div>
                 </div>
                 <div class="accordion-content">
                     <div class="accordion-body">
-                        <div class="section-title">About Kings League</div>
-                        <p style="color: #555; margin-bottom: 20px;">The Kings League represents a revolutionary approach to football, combining traditional sport with entertainment and celebrity culture. The Brazilian edition features teams owned and led by major Brazilian personalities and influencers.</p>
+                        <div class="section-title">Overview</div>
+                        <p>The world's most-watched sporting event, hosted across USA, Canada, and Mexico. Historic expanded format with 48 teams and 104 matches. Brazil's participation guaranteed as CONMEBOL representative.</p>
 
-                        <div class="section-title">Key features</div>
-                        <div class="list-item">6 international leagues (Spain, Americas, Italy, Brazil, France, Germany)</div>
-                        <div class="list-item">105+ presidents (team owners/celebrities)</div>
-                        <div class="list-item">70+ professional teams</div>
-                        <div class="list-item">1,000+ players</div>
-                        <div class="list-item">Neymar and Crisguedes as presidents of FURIA FC team in Brazil</div>
-
-                        <div class="section-title">Brazilian teams & presidents</div>
-                        <div class="list-item"><strong>FURIA FC:</strong> Neymar & Crisguedes</div>
-                        <div class="list-item"><strong>CAPIM FC:</strong> Jonvlogs & Luva de Pedreiro</div>
-                        <div class="list-item"><strong>IMPERIAL JEI:</strong> Toguro & Iuri 22</div>
-                        <div class="list-item"><strong>NYVELADOS:</strong> Nyvi Stephan</div>
-                        <div class="list-item"><strong>REAL ELITE:</strong> Ludmilla & Allanstag</div>
-                        <div class="list-item"><strong>LOUD:</strong> Coringa</div>
-                        <div class="list-item"><strong>FUMABOL:</strong> Kond, Michelelia & Mchariel</div>
-                        <div class="list-item"><strong>DE NÁPOLE:</strong> Paulinho "O Loko" & Luquete</div>
-                        <div class="list-item"><strong>GENERATION G3X:</strong> Gaules & Kelvin</div>
-                        <div class="list-item"><strong>FLUXO FX:</strong> Cerol & Nobru</div>
-
-                        <div class="highlight-box">
-                            <strong>Investment:</strong> BRL 2,500,000
+                        <div class="section-title">Total investment</div>
+                        <div class="info-grid">
+                            <div class="info-card">
+                                <div class="info-card-title">Complete package</div>
+                                <div class="info-card-value price">R$ 75.403.147</div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-card-title">Tournament duration</div>
+                                <div class="info-card-value">38 days</div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-card-title">Total estimated reach</div>
+                                <div class="info-card-value">6.76 billion</div>
+                            </div>
                         </div>
+
+                        <div class="section-title">TV Globo national broadcast</div>
+                        <div class="info-grid">
+                            <div class="info-card">
+                                <div class="info-card-title">Brazil matches (6 games minimum)</div>
+                                <div class="info-card-value price">R$ 54.000.000</div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-card-title">Per match investment</div>
+                                <div class="info-card-value price">R$ 9.000.000</div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-card-title">Expected viewership per game</div>
+                                <div class="info-card-value">60M+ viewers</div>
+                            </div>
+                        </div>
+                        <div class="highlight-box">
+                            <strong>Brazil matches include:</strong> All group stage matches (3) | Round of 16 | Quarter-final | Semi-final (if Brazil advances) | Premium 30" spots during pre-game, halftime, post-game
+                        </div>
+
+                        <div class="section-title">Select marquee matches</div>
+                        <div class="info-grid">
+                            <div class="info-card">
+                                <div class="info-card-title">10 premium non-Brazil matches</div>
+                                <div class="info-card-value price">R$ 18.000.000</div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-card-title">Per match investment</div>
+                                <div class="info-card-value price">R$ 1.800.000</div>
+                            </div>
+                        </div>
+                        <div class="list-item"><strong>Includes:</strong> Opening match | Key group stage fixtures | Both semi-finals | Third place | Final</div>
+
+                        <div class="section-title">GE.globo digital coverage</div>
+                        <div class="info-grid">
+                            <div class="info-card">
+                                <div class="info-card-title">Digital package</div>
+                                <div class="info-card-value price">R$ 3.403.147</div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-card-title">Tournament-long presence</div>
+                                <div class="info-card-value">38 days</div>
+                            </div>
+                        </div>
+                        <div class="list-item"><strong>Homepage takeover:</strong> R$ 1.920.000 (20 days)</div>
+                        <div class="list-item"><strong>Pre-roll video:</strong> R$ 743.147</div>
+                        <div class="list-item"><strong>Native content integration:</strong> R$ 740.000</div>
+
+                        <div class="section-title">Combined impact potential</div>
+                        <div class="info-grid">
+                            <div class="info-card">
+                                <div class="info-card-title">Global audience</div>
+                                <div class="info-card-value">5+ billion</div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-card-title">Brazil TV audience</div>
+                                <div class="info-card-value">150M+ unique</div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-card-title">Digital impressions</div>
+                                <div class="info-card-value">100M+</div>
+                            </div>
+                        </div>
+
+                        <div class="section-title">Strategic advantages</div>
+                        <div class="list-item">Planet's most-watched sporting event</div>
+                        <div class="list-item">Guaranteed massive simultaneous national audience</div>
+                        <div class="list-item">Emotional connection with Brazilian football passion</div>
+                        <div class="list-item">Historic expanded 48-team format</div>
+                        <div class="list-item">Multi-platform visibility (TV + Digital)</div>
+                        <div class="list-item">Association with global prestige event</div>
+                        <div class="list-item">Concentrated 38-day campaign for maximum impact</div>
                     </div>
                 </div>
             </div>
 
-            <!-- Out of Home (OOH) Media Brazil - CONDENSADO -->
+            <!-- Xports / Kings League -->
             <div class="accordion-item">
                 <div class="accordion-header" onclick="toggleAccordion(this)">
-                    <div class="accordion-title">Out of Home (OOH) Media | Brazil</div>
+                    <div class="accordion-title">Xports - Kings League Brazil Season</div>
                     <div class="accordion-icon">▼</div>
                 </div>
                 <div class="accordion-content">
                     <div class="accordion-body">
-                        <div class="highlight-box">
-                            <strong>Coverage:</strong> São Paulo, Rio de Janeiro, Belo Horizonte<br>
-                            <strong>Combined OOH solutions:</strong> Retail DOOH + Urban OOH
-                        </div>
+                        <div class="section-title">Overview</div>
+                        <p>Revolutionary 7-a-side football league bringing the global Kings League phenomenon to Brazil. Created by Gerard Piqué and Ibai Llanos, combining traditional football with innovative rules and digital-first storytelling.</p>
 
-                        <!-- NEOOH AMERICANAS -->
-                        <div class="section-title">1. NEOOH Americanas DOOH Circuit</div>
-                        <p style="color: #555; margin-bottom: 20px;">Digital signage revolution in Americanas retail network. A tailor-made project with NEOOH PX signature, the national full-service leader in digital signage solutions.</p>
+                        <div class="section-title">League structure & format</div>
+                        <div class="list-item"><strong>Teams:</strong> 12 franchises owned by Brazilian celebrities and influencers</div>
+                        <div class="list-item"><strong>Season:</strong> 11 regular weeks + playoffs + final</div>
+                        <div class="list-item"><strong>Format:</strong> 7v7 with unique rules (golden card, penalty shootout card, etc.)</div>
+                        <div class="list-item"><strong>Venue:</strong> Purpose-built arena in São Paulo</div>
 
+                        <div class="section-title">Broadcasting & distribution</div>
+                        <div class="list-item"><strong>Primary:</strong> YouTube & Twitch live streaming</div>
+                        <div class="list-item"><strong>Secondary:</strong> CazéTV network</div>
+                        <div class="list-item"><strong>Social:</strong> TikTok, Instagram, Twitter/X highlights</div>
+                        <div class="list-item"><strong>Language:</strong> Portuguese with celebrity commentary</div>
+
+                        <div class="section-title">Total investment</div>
                         <div class="info-grid">
                             <div class="info-card">
-                                <div class="info-card-title">Americanas stores</div>
-                                <div class="info-card-value">200+</div>
+                                <div class="info-card-title">Season package</div>
+                                <div class="info-card-value price">R$ 3.378.300</div>
                             </div>
                             <div class="info-card">
-                                <div class="info-card-title">Digital screens</div>
-                                <div class="info-card-value">600+</div>
+                                <div class="info-card-title">Match count</div>
+                                <div class="info-card-value">60+ matches</div>
                             </div>
                             <div class="info-card">
-                                <div class="info-card-title">Weekly reach</div>
-                                <div class="info-card-value">205,000+</div>
-                            </div>
-                            <div class="info-card">
-                                <div class="info-card-title">Weekly insertions</div>
-                                <div class="info-card-value">1.5 million+</div>
+                                <div class="info-card-title">Season duration</div>
+                                <div class="info-card-value">14 weeks</div>
                             </div>
                         </div>
 
-                        <div style="margin: 20px 0;">
-                            <strong style="color: #1e3c72;">Key insights:</strong>
-                            <div class="list-item">70% of purchase decisions are made at point of sale</div>
-                            <div class="list-item">50% of in-store purchase decisions are made by impulse</div>
-                            <div class="list-item">+70% increase in items sold when products are advertised in stores</div>
-                        </div>
+                        <div class="section-title">Sponsorship package includes</div>
+                        <div class="list-item"><strong>Jersey branding:</strong> Front-of-shirt on all 12 teams</div>
+                        <div class="list-item"><strong>Arena presence:</strong> LED boards, pitch-side branding, entrance activation</div>
+                        <div class="list-item"><strong>Digital integration:</strong> Stream overlays, lower thirds, branded segments</div>
+                        <div class="list-item"><strong>Social media:</strong> Content rights, highlight packages, behind-the-scenes</div>
+                        <div class="list-item"><strong>Influencer activation:</strong> Team president collaborations, content creation</div>
 
-                        <div style="margin: 20px 0;">
-                            <strong style="color: #1e3c72;">Purchase influence factors:</strong> Pricing (60%) | Brand variety (71%)
-                        </div>
+                        <div class="section-title">Target audience profile</div>
+                        <div class="list-item"><strong>Age:</strong> 16-35 years (85% of audience)</div>
+                        <div class="list-item"><strong>Gender:</strong> 65% male, 35% female</div>
+                        <div class="list-item"><strong>Digital native:</strong> High social media engagement</div>
+                        <div class="list-item"><strong>Interests:</strong> Football, gaming, entertainment, pop culture</div>
 
-                        <div style="margin: 20px 0;">
-                            <strong style="color: #1e3c72;">Main categories:</strong> Clothing/accessories/shoes (57%) | Electronics/appliances (57%) | Beauty products (20%) | Sports articles (12%)
-                        </div>
-
+                        <div class="section-title">Expected reach & engagement</div>
                         <div class="info-grid">
                             <div class="info-card">
-                                <div class="info-card-title">Investment (1 week Brazil-wide)</div>
-                                <div class="info-card-value price">BRL 195,000</div>
+                                <div class="info-card-title">Average live viewers</div>
+                                <div class="info-card-value">200K+</div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-card-title">Social impressions/week</div>
+                                <div class="info-card-value">50M+</div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-card-title">Total season impressions</div>
+                                <div class="info-card-value">700M+</div>
                             </div>
                         </div>
 
-                        <!-- RIO DE JANEIRO OOH -->
-                        <div class="section-title">2. Rio de Janeiro Urban OOH Campaign</div>
-                        <div class="highlight-box">
-                            <strong>Campaign duration:</strong> 30 days<br>
-                            <strong>Combined reach:</strong> 116.4 million impressions
-                        </div>
+                        <div class="section-title">Strategic advantages</div>
+                        <div class="list-item">First-mover advantage in revolutionary football format</div>
+                        <div class="list-item">Younger demographic than traditional football</div>
+                        <div class="list-item">High engagement rates (live chat, real-time interaction)</div>
+                        <div class="list-item">Celebrity team owners drive organic social amplification</div>
+                        <div class="list-item">Content-rich environment for brand storytelling</div>
+                        <div class="list-item">Association with innovation and entertainment</div>
+                        <div class="list-item">Cross-platform distribution maximizes visibility</div>
 
-                        <div style="margin: 20px 0;">
-                            <strong style="color: #1e3c72;">2.1. Digital screens on buses (DOOH)</strong>
-                        </div>
+                        <div class="section-title">Activation opportunities</div>
+                        <div class="list-item"><strong>Match-day experiences:</strong> VIP hospitality, fan zones, sampling</div>
+                        <div class="list-item"><strong>Digital campaigns:</strong> Hashtag challenges, voting mechanics, contests</div>
+                        <div class="list-item"><strong>Content creation:</strong> Player interviews, team documentaries, exclusive access</div>
+                        <div class="list-item"><strong>Product placement:</strong> Warm-up gear, training equipment, trophy presentation</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BLAST XPERIENCE - NEOOH Partnership -->
+            <div class="accordion-item">
+                <div class="accordion-header" onclick="toggleAccordion(this)">
+                    <div class="accordion-title">BLAST XPERIENCE - Premium Out-of-Home + Digital + CTV Package</div>
+                    <div class="accordion-icon">▼</div>
+                </div>
+                <div class="accordion-content">
+                    <div class="accordion-body">
+                        <div class="section-title">Overview</div>
+                        <p>Integrated multi-platform campaign combining premium Out-of-Home (NEOOH), leading digital publisher (UOL), and Connected TV (Pluto TV) for maximum urban reach during high-traffic periods.</p>
+
+                        <div class="section-title">Total investment</div>
                         <div class="info-grid">
                             <div class="info-card">
-                                <div class="info-card-title">Investment</div>
-                                <div class="info-card-value">BRL 64,759.50</div>
+                                <div class="info-card-title">Complete package</div>
+                                <div class="info-card-value price">R$ 2.000.000</div>
                             </div>
                             <div class="info-card">
-                                <div class="info-card-title">Potential impact</div>
-                                <div class="info-card-value">13.4 million</div>
+                                <div class="info-card-title">Campaign duration</div>
+                                <div class="info-card-value">10 days</div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-card-title">Total estimated reach</div>
+                                <div class="info-card-value">401 million</div>
                             </div>
                         </div>
-                        <div class="list-item">150 digital displays (15" inside buses) | 526,500 total insertions</div>
-                        <div class="list-item">North zone to south zone routes | Daily reach per bus: 660 people</div>
 
-                        <div style="margin: 20px 0;">
-                            <strong style="color: #1e3c72;">2.2. Digital panels in terminals (DOOH)</strong>
-                        </div>
-                        <div class="info-grid">
-                            <div class="info-card">
-                                <div class="info-card-title">Investment</div>
-                                <div class="info-card-value">BRL 276,169.32</div>
-                            </div>
-                            <div class="info-card">
-                                <div class="info-card-title">Potential impact</div>
-                                <div class="info-card-value">40.6 million</div>
-                            </div>
-                        </div>
-                        <div class="list-item">78 digital displays in transportation terminals | 709,200 total insertions</div>
-
-                        <div style="margin: 20px 0;">
-                            <strong style="color: #1e3c72;">2.3. Digital panels at CADEG market (DOOH)</strong>
-                        </div>
-                        <div class="info-grid">
-                            <div class="info-card">
-                                <div class="info-card-title">Investment</div>
-                                <div class="info-card-value">BRL 69,120</div>
-                            </div>
-                            <div class="info-card">
-                                <div class="info-card-title">Potential impact</div>
-                                <div class="info-card-value">9.1 million</div>
-                            </div>
-                        </div>
-                        <div class="list-item">16 digital screens at CADEG (major Rio market) | 691,200 total insertions</div>
-
-                        <div style="margin: 20px 0;">
-                            <strong style="color: #1e3c72;">2.4. Traditional OOH panels</strong>
-                        </div>
-                        <div class="info-grid">
-                            <div class="info-card">
-                                <div class="info-card-title">Investment</div>
-                                <div class="info-card-value">BRL 244,607.23</div>
-                            </div>
-                            <div class="info-card">
-                                <div class="info-card-title">Potential impact</div>
-                                <div class="info-card-value">47.0 million</div>
-                            </div>
-                        </div>
-                        <div class="list-item">98 strategic outdoor panels across Rio de Janeiro</div>
-
-                        <div style="margin: 20px 0;">
-                            <strong style="color: #1e3c72;">2.5. Bus seat branding</strong>
-                        </div>
+                        <div class="section-title">NEOOH - Premium digital out-of-home</div>
                         <div class="info-grid">
                             <div class="info-card">
                                 <div class="info-card-title">Investment</div>
-                                <div class="info-card-value">BRL 96,000</div>
+                                <div class="info-card-value price">R$ 1.200.000</div>
                             </div>
                             <div class="info-card">
-                                <div class="info-card-title">Estimated monthly impact</div>
-                                <div class="info-card-value">6.3 million</div>
+                                <div class="info-card-title">Total screens</div>
+                                <div class="info-card-value">500+ displays</div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-card-title">Daily impressions</div>
+                                <div class="info-card-value">25 million</div>
                             </div>
                         </div>
-                        <div class="list-item">2,400 branded bus seats</div>
 
-                        <div class="section-title">Total Rio OOH package</div>
+                        <div class="list-item"><strong>Rio de Janeiro coverage:</strong> Copacabana, Ipanema, Leblon, Barra, Centro, shopping malls</div>
+                        <div class="list-item"><strong>São Paulo coverage:</strong> Paulista Ave, Faria Lima, Itaim, Pinheiros, Vila Olímpia, premium malls</div>
+                        <div class="list-item"><strong>Screen formats:</strong> Large-format digital billboards, elevator screens, mall networks, transit hubs</div>
+                        <div class="list-item"><strong>Creative rotation:</strong> Up to 3 different creatives throughout campaign</div>
+
+                        <div class="section-title">UOL - Brazil's leading digital publisher</div>
                         <div class="info-grid">
                             <div class="info-card">
-                                <div class="info-card-title">Combined investment (30 days)</div>
-                                <div class="info-card-value price">BRL 750,656.05</div>
+                                <div class="info-card-title">Investment</div>
+                                <div class="info-card-value price">R$ 600.000</div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-card-title">Monthly unique visitors</div>
+                                <div class="info-card-value">114 million</div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-card-title">Campaign impressions</div>
+                                <div class="info-card-value">100 million</div>
+                            </div>
+                        </div>
+
+                        <div class="list-item"><strong>Homepage takeover:</strong> 3 days premium placement</div>
+                        <div class="list-item"><strong>Display network:</strong> Desktop + mobile banners across UOL network</div>
+                        <div class="list-item"><strong>Video pre-roll:</strong> Premium inventory on UOL content</div>
+                        <div class="list-item"><strong>Native content:</strong> Branded editorial integration</div>
+
+                        <div class="section-title">Pluto TV - Connected TV advertising</div>
+                        <div class="info-grid">
+                            <div class="info-card">
+                                <div class="info-card-title">Investment</div>
+                                <div class="info-card-value price">R$ 200.000</div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-card-title">Monthly active users (Brazil)</div>
+                                <div class="info-card-value">15 million</div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-card-title">Campaign impressions</div>
+                                <div class="info-card-value">25 million</div>
+                            </div>
+                        </div>
+
+                        <div class="list-item"><strong>Ad format:</strong> 30-second non-skippable spots</div>
+                        <div class="list-item"><strong>Frequency:</strong> Optimized delivery across 10-day period</div>
+                        <div class="list-item"><strong>Content context:</strong> News, entertainment, movies, series</div>
+                        <div class="list-item"><strong>Targeting:</strong> Geo (Rio + São Paulo), demographics, content preferences</div>
+
+                        <div class="section-title">Combined campaign metrics</div>
+                        <div class="info-grid">
+                            <div class="info-card">
+                                <div class="info-card-title">Total impressions</div>
+                                <div class="info-card-value">401 million</div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-card-title">Unique reach estimate</div>
+                                <div class="info-card-value">45 million</div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-card-title">Frequency</div>
+                                <div class="info-card-value">8-10x</div>
+                            </div>
+                        </div>
+
+                        <div class="section-title">Strategic advantages</div>
+                        <div class="list-item">Multi-touchpoint strategy for reinforced brand recall</div>
+                        <div class="list-item">Coverage of Brazil's two largest markets (Rio + SP)</div>
+                        <div class="list-item">Mix of high-impact OOH and precise digital targeting</div>
+                        <div class="list-item">Premium inventory across all platforms</div>
+                        <div class="list-item">Living room presence via Connected TV</div>
+                        <div class="list-item">Complementary audience across outdoor, desktop, mobile, and CTV</div>
+
+                        <div class="section-title">Ideal campaign timing</div>
+                        <div class="list-item">Product launches requiring massive awareness burst</div>
+                        <div class="list-item">Seasonal campaigns (holidays, back-to-school, summer)</div>
+                        <div class="list-item">Event-driven marketing (concerts, festivals, sports events)</div>
+                        <div class="list-item">Reinforcement campaigns for ongoing properties</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ONBUS Partnership -->
+            <div class="accordion-item">
+                <div class="accordion-header" onclick="toggleAccordion(this)">
+                    <div class="accordion-title">ONBUS - Public Transport Advertising (Rio de Janeiro + São Paulo)</div>
+                    <div class="accordion-icon">▼</div>
+                </div>
+                <div class="accordion-content">
+                    <div class="accordion-body">
+                        <div class="section-title">Overview</div>
+                        <p>Strategic advertising placement on public buses in Brazil's two largest cities, providing high-frequency exposure to captive audiences during daily commutes.</p>
+
+                        <div class="section-title">ONBUS Rio de Janeiro package</div>
+                        <div class="info-grid">
+                            <div class="info-card">
+                                <div class="info-card-title">Monthly investment</div>
+                                <div class="info-card-value price">R$ 653.212</div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-card-title">Total advertising faces</div>
+                                <div class="info-card-value">2.400</div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-card-title">Monthly impacts</div>
+                                <div class="info-card-value">63 million</div>
+                            </div>
+                        </div>
+
+                        <div class="section-title">Coverage zones - Rio de Janeiro</div>
+                        <div class="list-item"><strong>Zone 1:</strong> Barra, Recreio, Jacarepaguá, Cidade de Deus</div>
+                        <div class="list-item"><strong>Zone 2:</strong> Tijuca, Vila Isabel, Grajaú</div>
+                        <div class="list-item"><strong>Zone 3:</strong> Centro, Castelo, Cinelândia, Praça XV, Lapa, Santa Teresa</div>
+                        <div class="list-item"><strong>Zone 4:</strong> Botafogo, Copacabana, Ipanema, Leblon, Gávea, Jardim Botânico, Lagoa</div>
+                        <div class="list-item"><strong>Zone 5:</strong> Campo Grande, Santa Cruz, Guaratiba</div>
+                        <div class="list-item"><strong>Zone 6:</strong> Ilha do Governador, Bonsucesso</div>
+                        <div class="list-item"><strong>Zone 7:</strong> Madureira, Cascadura</div>
+
+                        <div class="section-title">Format breakdown - Rio</div>
+                        <div class="info-grid">
+                            <div class="info-card">
+                                <div class="info-card-title">Seat branding (full buses)</div>
+                                <div class="info-card-value price">R$ 400.000</div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-card-title">Bus terminal panels</div>
+                                <div class="info-card-value price">R$ 253.212</div>
+                            </div>
+                        </div>
+
+                        <div class="list-item"><strong>Bus seat branding:</strong> 30 buses with complete interior seat branding (40 seats per bus)</div>
+                        <div class="list-item"><strong>Terminal coverage:</strong> 800 advertising faces across major BRT and conventional terminals</div>
+
+                        <div class="section-title">ONBUS São Paulo package</div>
+                        <div class="info-grid">
+                            <div class="info-card">
+                                <div class="info-card-title">Monthly investment</div>
+                                <div class="info-card-value price">R$ 380.120</div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-card-title">Total advertising faces</div>
+                                <div class="info-card-value">1.353</div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-card-title">Monthly impacts</div>
+                                <div class="info-card-value">18 million</div>
+                            </div>
+                        </div>
+
+                        <div class="section-title">Coverage zones - São Paulo</div>
+                        <div class="list-item"><strong>North Zone:</strong> Pirituba, Jaraguá</div>
+                        <div class="list-item"><strong>West Zone:</strong> Lapa, Pinheiros, Anhanguera, Cachoeirinha, Brasilândia</div>
+                        <div class="list-item"><strong>South Zone:</strong> Av. Paulista, Vila Mariana, Vila Olímpia</div>
+                        <div class="list-item"><strong>East Zone:</strong> São Matheus, Itaquera, Aricanduva, Arthur Alvim, Carrão, Cidade Tiradentes, Guianazes, José Bonifácio, Mooca, Penha</div>
+                        <div class="list-item"><strong>Central Zone:</strong> Brás, Consolação, Liberdade, Pari, República, Santa Cecília, Barra Funda, Bela Vista, Bom Retiro</div>
+
+                        <div class="section-title">ONBUS Combined totals (Rio + SP)</div>
+                        <div class="info-grid">
+                            <div class="info-card">
+                                <div class="info-card-title">Combined monthly investment</div>
+                                <div class="info-card-value price">R$ 1.033.332</div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-card-title">Total faces</div>
+                                <div class="info-card-value">3.753</div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-card-title">Total monthly impact</div>
+                                <div class="info-card-value">81 million</div>
+                            </div>
+                        </div>
+
+                        <div class="section-title">ONBUS Key advantages</div>
+                        <div class="list-item">High attention engagement inside buses</div>
+                        <div class="list-item">Wide coverage across major urban zones</div>
+                        <div class="list-item">High-frequency exposure to captive audience</div>
+                        <div class="list-item">QR code integration for direct interaction</div>
+                        <div class="list-item">Extended dwell time for message absorption</div>
+
+                        <div class="section-title">Total OOH package</div>
+                        <div class="info-grid">
+                            <div class="info-card">
+                                <div class="info-card-title">Combined investment</div>
+                                <div class="info-card-value">R$ 750.656.05</div>
                             </div>
                             <div class="info-card">
                                 <div class="info-card-title">Total impact</div>
                                 <div class="info-card-value">116.4 million</div>
                             </div>
                         </div>
-
                         <div class="highlight-box">
-                            <strong>Strategic advantages:</strong> Retail point-of-purchase impact + Urban mobility coverage | Mix of digital and traditional formats | High traffic locations across major Brazilian cities | Multiple consumer touchpoints from store to street
+                            <strong>Advantages:</strong> Multiple touchpoints across Rio de Janeiro | Mix of digital and traditional formats | High traffic locations and routes
                         </div>
                     </div>
                 </div>
@@ -734,91 +864,59 @@
                                         <th>Property</th>
                                         <th>Format</th>
                                         <th>Duration</th>
-                                        <th>Investment (BRL)</th>
+                                        <th>Investment (R$)</th>
                                         <th>Potential reach</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td><strong>FIFA World Cup 2026</strong></td>
-                                        <td>TV + Digital</td>
-                                        <td>38 days</td>
-                                        <td class="price">75,403,147</td>
-                                        <td>6.76B impacts</td>
-                                    </tr>
-                                    <tr>
                                         <td><strong>Brasileirão Série A complete</strong></td>
                                         <td>TV + Digital + Social</td>
                                         <td>9 months</td>
-                                        <td class="price">6,332,833*</td>
+                                        <td class="price">R$ 68.287.301*</td>
                                         <td>253.75M impacts</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>Kings League Brazil</strong></td>
+                                        <td><strong>FIFA World Cup 2026</strong></td>
+                                        <td>TV + Digital</td>
+                                        <td>38 days</td>
+                                        <td class="price">R$ 75.403.147</td>
+                                        <td>6.76B impacts</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Xports (Kings League Brazil)</strong></td>
                                         <td>Multi-platform</td>
                                         <td>Season</td>
-                                        <td class="price">2,500,000</td>
+                                        <td class="price">R$ 3.378.300</td>
                                         <td>High engagement</td>
                                     </tr>
-                                    <tr style="background: #f8f9fa;">
-                                        <td colspan="5" style="text-align: center; font-weight: 600; padding: 12px;">
-                                            <strong>OUT OF HOME (OOH) BRAZIL</strong>
-                                        </td>
+                                    <tr style="background: #f0f3ff;">
+                                        <td><strong>BLAST XPERIENCE (NEOOH + UOL + Pluto TV)</strong></td>
+                                        <td>OOH + Digital + CTV</td>
+                                        <td>10 days</td>
+                                        <td class="price">R$ 2.000.000</td>
+                                        <td>401M impacts</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>NEOOH Americanas</strong></td>
-                                        <td>Retail DOOH</td>
-                                        <td>1 week</td>
-                                        <td class="price">195,000</td>
-                                        <td>1.5M insertions | 205K consumers</td>
+                                        <td><strong>ONBUS - Rio de Janeiro</strong></td>
+                                        <td>Bus seat branding + terminals</td>
+                                        <td>30 days</td>
+                                        <td class="price">R$ 653.212</td>
+                                        <td>63M impacts</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>Rio OOH - DOOH buses</strong></td>
-                                        <td>Urban DOOH</td>
+                                        <td><strong>ONBUS - São Paulo</strong></td>
+                                        <td>Bus seat branding</td>
                                         <td>30 days</td>
-                                        <td class="price">64,759.50</td>
-                                        <td>13.4M impacts</td>
+                                        <td class="price">R$ 380.120</td>
+                                        <td>18M impacts</td>
                                     </tr>
-                                    <tr>
-                                        <td><strong>Rio OOH - Terminal panels</strong></td>
-                                        <td>Urban DOOH</td>
-                                        <td>30 days</td>
-                                        <td class="price">276,169.32</td>
-                                        <td>40.6M impacts</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Rio OOH - CADEG panels</strong></td>
-                                        <td>Urban DOOH</td>
-                                        <td>30 days</td>
-                                        <td class="price">69,120</td>
-                                        <td>9.1M impacts</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Rio OOH - Traditional panels</strong></td>
-                                        <td>Urban OOH</td>
-                                        <td>30 days</td>
-                                        <td class="price">244,607.23</td>
-                                        <td>47.0M impacts</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>Rio OOH - Bus seats</strong></td>
-                                        <td>Urban OOH</td>
-                                        <td>30 days</td>
-                                        <td class="price">96,000</td>
-                                        <td>6.3M impacts</td>
-                                    </tr>
-                                    <tr style="background: #f0f3ff; font-weight: 600;">
-                                        <td><strong>Total Rio OOH package</strong></td>
-                                        <td>Combined</td>
-                                        <td>30 days</td>
-                                        <td class="price">750,656.05</td>
-                                        <td>116.4M impacts</td>
-                                    </tr>
+                                </tbody>
                                 </tbody>
                             </table>
                         </div>
                         <div style="margin-top: 15px; color: #6c757d; font-size: 0.9rem;">
-                            *Includes BRL 500,000 production & talent costs
+                            *Includes R$ 500.000 production & talent costs
                         </div>
                     </div>
                 </div>
@@ -846,6 +944,13 @@
                             <div class="list-item"><strong>3. Customize proposal:</strong> We'll develop a tailored package based on your selections</div>
                             <div class="list-item"><strong>4. Negotiate terms:</strong> Flexible arrangements to meet your budget and objectives</div>
                         </div>
+
+                        <div class="section-title">Contact</div>
+                        <div class="highlight-box">
+                            <strong>SOHO Sports & Brands</strong><br>
+                            Your strategic connection between brands and sports<br><br>
+                            <em>This menu represents available opportunities as of November 2025. Availability and pricing subject to confirmation.</em>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -859,21 +964,24 @@
                 </div>
 
                 <div class="signature">
-                    <div class="signature-name">Fernando Paz</div>
-                    <div class="signature-contacts">
-                        <div class="signature-contact">
-                            <strong>Phone:</strong> +55 21 99821-4999
-                        </div>
-                        <div class="signature-contact">
-                            <strong>Email:</strong> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="aec8cbdcc0cfc0cac180decfd4eeddc1c6c1dddec1dcdaddccdccfc0cadd80cdc1c380ccdc">[email&#160;protected]</a>
-                        </div>
-                    </div>
-                    <div class="signature-website">www.sohosportsbrands.com.br</div>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
         function toggleAccordion(header) {
-            const content = header
+            const item = header.parentElement;
+            const content = header.nextElementSibling;
+            const isActive = header.classList.contains('active');
+            
+            // Close all accordions
+            document.querySelectorAll('.accordion-header').forEach(h => {
+                h.classList.remove('active');
+                h.nextElementSibling.classList.remove('active');
+            });
+            
+            // Open clicked accordion if it wasn't active
+            if (!isActive) {
+                header.classList.add('active');
+                content.classList.add('active');
+            }
+        }
+    </script>
+</body>
+</html>
