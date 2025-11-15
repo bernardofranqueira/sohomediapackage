@@ -71,6 +71,16 @@
             margin-bottom: 10px;
         }
 
+        .intro .important-note {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin-top: 15px;
+            border-radius: 8px;
+            color: #856404;
+            font-weight: 500;
+        }
+
         .accordion-item {
             background: white;
             border: 2px solid #e9ecef;
@@ -272,8 +282,18 @@
 
         .signature {
             text-align: center;
-            color: #6c757d;
-            font-size: 0.9rem;
+            color: #1e3c72;
+            font-size: 1rem;
+            margin-top: 30px;
+            padding: 20px;
+            background: white;
+            border-radius: 12px;
+        }
+
+        .signature strong {
+            display: block;
+            font-size: 1.1rem;
+            margin-bottom: 10px;
         }
 
         @media (max-width: 768px) {
@@ -315,12 +335,15 @@
                 <h2>Welcome to your customized media menu</h2>
                 <p>This portfolio showcases premium sponsorship and media opportunities across Brazilian sports and entertainment properties, carefully curated for maximum brand impact.</p>
                 <p><strong>Select individual properties or combine multiple opportunities to create a comprehensive brand presence strategy.</strong></p>
+                <div class="important-note">
+                    <strong>Important:</strong> These opportunities can only be acquired by companies with federal licensing approved via SPA.
+                </div>
             </div>
 
             <!-- Brasileirão -->
             <div class="accordion-item">
                 <div class="accordion-header" onclick="toggleAccordion(this)">
-                    <div class="accordion-title">Brasileirão Série A 2025 - Complete Season Package</div>
+                    <div class="accordion-title">Brasileirão Série A 2026 - RECORD</div>
                     <div class="accordion-icon">▼</div>
                 </div>
                 <div class="accordion-content">
@@ -426,7 +449,7 @@
             <!-- FIFA World Cup -->
             <div class="accordion-item">
                 <div class="accordion-header" onclick="toggleAccordion(this)">
-                    <div class="accordion-title">FIFA World Cup 2026 - TV Globo Broadcast</div>
+                    <div class="accordion-title">FIFA World Cup 2026 - TV & Digital Media</div>
                     <div class="accordion-icon">▼</div>
                 </div>
                 <div class="accordion-content">
@@ -611,18 +634,21 @@
                 </div>
             </div>
 
-            <!-- BLAST XPERIENCE - NEOOH Partnership -->
+            <!-- OUT OF HOME (OOH) MEDIA / BRAZIL -->
             <div class="accordion-item">
                 <div class="accordion-header" onclick="toggleAccordion(this)">
-                    <div class="accordion-title">BLAST XPERIENCE - Premium Out-of-Home + Digital + CTV Package</div>
+                    <div class="accordion-title">OUT OF HOME (OOH) MEDIA / BRAZIL</div>
                     <div class="accordion-icon">▼</div>
                 </div>
                 <div class="accordion-content">
                     <div class="accordion-body">
                         <div class="section-title">Overview</div>
+                        <p>Comprehensive Out-of-Home advertising solutions across Brazil's major urban markets, combining premium digital displays, traditional transit media, and Connected TV for maximum urban reach and brand visibility.</p>
+
+                        <!-- BLAST XPERIENCE Section -->
+                        <div class="section-title">BLAST XPERIENCE - Premium Digital OOH + UOL + Pluto TV</div>
                         <p>Integrated multi-platform campaign combining premium Out-of-Home (NEOOH), leading digital publisher (UOL), and Connected TV (Pluto TV) for maximum urban reach during high-traffic periods.</p>
 
-                        <div class="section-title">Total investment</div>
                         <div class="info-grid">
                             <div class="info-card">
                                 <div class="info-card-title">Complete package</div>
@@ -701,48 +727,8 @@
                         <div class="list-item"><strong>Content context:</strong> News, entertainment, movies, series</div>
                         <div class="list-item"><strong>Targeting:</strong> Geo (Rio + São Paulo), demographics, content preferences</div>
 
-                        <div class="section-title">Combined campaign metrics</div>
-                        <div class="info-grid">
-                            <div class="info-card">
-                                <div class="info-card-title">Total impressions</div>
-                                <div class="info-card-value">401 million</div>
-                            </div>
-                            <div class="info-card">
-                                <div class="info-card-title">Unique reach estimate</div>
-                                <div class="info-card-value">45 million</div>
-                            </div>
-                            <div class="info-card">
-                                <div class="info-card-title">Frequency</div>
-                                <div class="info-card-value">8-10x</div>
-                            </div>
-                        </div>
-
-                        <div class="section-title">Strategic advantages</div>
-                        <div class="list-item">Multi-touchpoint strategy for reinforced brand recall</div>
-                        <div class="list-item">Coverage of Brazil's two largest markets (Rio + SP)</div>
-                        <div class="list-item">Mix of high-impact OOH and precise digital targeting</div>
-                        <div class="list-item">Premium inventory across all platforms</div>
-                        <div class="list-item">Living room presence via Connected TV</div>
-                        <div class="list-item">Complementary audience across outdoor, desktop, mobile, and CTV</div>
-
-                        <div class="section-title">Ideal campaign timing</div>
-                        <div class="list-item">Product launches requiring massive awareness burst</div>
-                        <div class="list-item">Seasonal campaigns (holidays, back-to-school, summer)</div>
-                        <div class="list-item">Event-driven marketing (concerts, festivals, sports events)</div>
-                        <div class="list-item">Reinforcement campaigns for ongoing properties</div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- ONBUS Partnership -->
-            <div class="accordion-item">
-                <div class="accordion-header" onclick="toggleAccordion(this)">
-                    <div class="accordion-title">ONBUS - Public Transport Advertising (Rio de Janeiro + São Paulo)</div>
-                    <div class="accordion-icon">▼</div>
-                </div>
-                <div class="accordion-content">
-                    <div class="accordion-body">
-                        <div class="section-title">Overview</div>
+                        <!-- ONBUS Section -->
+                        <div class="section-title">ONBUS - Public Transport Advertising (Rio + São Paulo)</div>
                         <p>Strategic advertising placement on public buses in Brazil's two largest cities, providing high-frequency exposure to captive audiences during daily commutes.</p>
 
                         <div class="section-title">ONBUS Rio de Janeiro package</div>
@@ -808,43 +794,30 @@
                         <div class="list-item"><strong>East Zone:</strong> São Matheus, Itaquera, Aricanduva, Arthur Alvim, Carrão, Cidade Tiradentes, Guianazes, José Bonifácio, Mooca, Penha</div>
                         <div class="list-item"><strong>Central Zone:</strong> Brás, Consolação, Liberdade, Pari, República, Santa Cecília, Barra Funda, Bela Vista, Bom Retiro</div>
 
-                        <div class="section-title">ONBUS Combined totals (Rio + SP)</div>
+                        <div class="section-title">Combined OOH totals</div>
                         <div class="info-grid">
                             <div class="info-card">
-                                <div class="info-card-title">Combined monthly investment</div>
+                                <div class="info-card-title">BLAST XPERIENCE investment</div>
+                                <div class="info-card-value price">R$ 2.000.000</div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-card-title">ONBUS combined investment</div>
                                 <div class="info-card-value price">R$ 1.033.332</div>
                             </div>
                             <div class="info-card">
-                                <div class="info-card-title">Total faces</div>
-                                <div class="info-card-value">3.753</div>
-                            </div>
-                            <div class="info-card">
-                                <div class="info-card-title">Total monthly impact</div>
-                                <div class="info-card-value">81 million</div>
+                                <div class="info-card-title">Total OOH investment</div>
+                                <div class="info-card-value price">R$ 3.033.332</div>
                             </div>
                         </div>
 
-                        <div class="section-title">ONBUS Key advantages</div>
-                        <div class="list-item">High attention engagement inside buses</div>
-                        <div class="list-item">Wide coverage across major urban zones</div>
-                        <div class="list-item">High-frequency exposure to captive audience</div>
+                        <div class="section-title">Strategic advantages</div>
+                        <div class="list-item">Multi-touchpoint strategy across digital and traditional formats</div>
+                        <div class="list-item">Coverage of Brazil's two largest markets (Rio + SP)</div>
+                        <div class="list-item">High-frequency exposure to captive audiences</div>
+                        <div class="list-item">Mix of premium locations and mass transit reach</div>
+                        <div class="list-item">Living room presence via Connected TV</div>
+                        <div class="list-item">Complementary audience across outdoor, desktop, mobile, and CTV</div>
                         <div class="list-item">QR code integration for direct interaction</div>
-                        <div class="list-item">Extended dwell time for message absorption</div>
-
-                        <div class="section-title">Total OOH package</div>
-                        <div class="info-grid">
-                            <div class="info-card">
-                                <div class="info-card-title">Combined investment</div>
-                                <div class="info-card-value">R$ 750.656.05</div>
-                            </div>
-                            <div class="info-card">
-                                <div class="info-card-title">Total impact</div>
-                                <div class="info-card-value">116.4 million</div>
-                            </div>
-                        </div>
-                        <div class="highlight-box">
-                            <strong>Advantages:</strong> Multiple touchpoints across Rio de Janeiro | Mix of digital and traditional formats | High traffic locations and routes
-                        </div>
                     </div>
                 </div>
             </div>
@@ -870,7 +843,7 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td><strong>Brasileirão Série A complete</strong></td>
+                                        <td><strong>Brasileirão Série A 2026 - RECORD</strong></td>
                                         <td>TV + Digital + Social</td>
                                         <td>9 months</td>
                                         <td class="price">R$ 68.287.301*</td>
@@ -891,27 +864,12 @@
                                         <td>High engagement</td>
                                     </tr>
                                     <tr style="background: #f0f3ff;">
-                                        <td><strong>BLAST XPERIENCE (NEOOH + UOL + Pluto TV)</strong></td>
-                                        <td>OOH + Digital + CTV</td>
-                                        <td>10 days</td>
-                                        <td class="price">R$ 2.000.000</td>
-                                        <td>401M impacts</td>
+                                        <td><strong>OUT OF HOME (OOH) MEDIA / BRAZIL</strong></td>
+                                        <td>OOH + Digital + CTV + Transit</td>
+                                        <td>Variable</td>
+                                        <td class="price">R$ 3.033.332</td>
+                                        <td>482M+ impacts</td>
                                     </tr>
-                                    <tr>
-                                        <td><strong>ONBUS - Rio de Janeiro</strong></td>
-                                        <td>Bus seat branding + terminals</td>
-                                        <td>30 days</td>
-                                        <td class="price">R$ 653.212</td>
-                                        <td>63M impacts</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>ONBUS - São Paulo</strong></td>
-                                        <td>Bus seat branding</td>
-                                        <td>30 days</td>
-                                        <td class="price">R$ 380.120</td>
-                                        <td>18M impacts</td>
-                                    </tr>
-                                </tbody>
                                 </tbody>
                             </table>
                         </div>
@@ -964,7 +922,16 @@
                 </div>
 
                 <div class="signature">
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+                    <strong>Fernando Paz</strong><br>
+                    Phone: +55 21 99821-4999<br>
+                    Email: fernando.paz@sohosportsbrands.com.br<br>
+                    www.sohosportsbrands.com.br
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
         function toggleAccordion(header) {
             const item = header.parentElement;
             const content = header.nextElementSibling;
